@@ -3,55 +3,115 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Code School</title>
+    <title>Document</title>
   </head>
+
+  <style>
+    #breadcrumb {
+      color: rgb(143, 143, 142);
+      font-size: 12px;
+    }
+
+    #relevence {
+      color: #449595;
+      font-weight: 1000;
+      text-decoration: underline;
+    }
+
+    #sortBy {
+      font-weight: 1000;
+    }
+    #sponsored {
+      color: rgb(138, 138, 129);
+    }
+    #brandName {
+      color: rgb(67, 71, 71);
+    }
+    #quatity {
+      color: rgb(167, 167, 161);
+      font-size: 12px;
+    }
+    #discountPer {
+      color: green;
+    }
+  </style>
+
   <body>
-    <h1>bookmark</h1>
-    <h2>click on any specific icon</h2>
+    <ol id="breadcrumb" style="list-style: none; display: flex; gap: 20px">
+      <li>Home</li>
+      <li>></li>
+      <li>clothing and...</li>
+      <li>></li>
+      <li>Topwear</li>
+      <li>></li>
+      <li>Shirts</li>
+    </ol>
+    <p style="padding: 40px">showing 1-40 of 22,302 results for "shirts"</p>
+    <ol style="list-style: none; display: flex; gap: 20px">
+      <li id="sortBy">Sort by</li>
+      <li id="relevence">Relevence</li>
+      <li>Popularity</li>
+      <li>price-low to high</li>
+      <li>Price-high to low</li>
+      <li>Newest First</li>
+    </ol>
 
-    <a href="https://www.google.com/">
-      <img
-        width="80px"
-        src="https://cdn-icons-png.flaticon.com/512/1295/1295546.png"
-        alt="google icon"
-      />
-    </a>
+    <div style="padding-left: 20px">
+      <ol style="list-style: none; display: flex; gap: 5px">
+        <li>
+          <img
+            width="350px"
+            src="https://rukminim2.flixcart.com/image/416/416/xif0q/shirt/k/l/x/xl-whitecheck-blackcheck-youth-first-original-imaghy7hxgn55fqc.jpeg"
+            alt="shirts"
+          />
+          <p id="sponsored">Sponsored</p>
+          <p id="brandName">BLUE MARTIN</p>
+          <p id="mensCategory">Mens Regular Fit(check)</p>
+          <p id="quatity">Pack of 2</p>
+          <img
+            src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png"
+            alt="flipkart"
+            height="18px"
+          />
+          <p>₹450 <s>₹999</s><span id="discountPer"> 85% off</span></p>
+        </li>
 
-    <a href="https://www.linkedin.com/">
-      <img
-        width="80px"
-        src="https://lpws.pro/wp-content/uploads/linkedin-logo.jpg"
-        alt="linkedin icon"
-      />
-    </a>
+        <li>
+          <img
+            width="350px"
+            src="https://rukminim2.flixcart.com/image/416/416/xif0q/shirt/k/l/x/xl-whitecheck-blackcheck-youth-first-original-imaghy7hxgn55fqc.jpeg"
+            alt="shirts"
+          />
+          <p id="sponsored">Sponsored</p>
+          <p id="brandName">BLUE MARTIN</p>
+          <p id="mensCategory">Mens Regular Fit(check)</p>
+          <p id="quatity">Pack of 2</p>
+          <img
+            src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png"
+            alt="flipkart"
+            height="18px"
+          />
+          <p>₹450 <s>₹999</s><span id="discountPer"> 85% off</span></p>
+        </li>
 
-    <a href="https://twitter.com/">
-      <p>twitter</p>
-    </a>
-    <a href="https://www.tesla.com/">
-      <p>tesla</p>
-    </a>
-    <a href="https://www.notion.so/">
-        <p> notion</p>
-    </a>
-    <div>
-      <h1>
-        <a href="mailto:debnathpriti0226@gmail.com">send email </a>
-      </h1>
-
-      <a href="../../Desktop/dhoni.png" target="blank"> </a>
-      <a href="tel:+919706182571"> call me @ 9706182571 </a> <br />
-      <a
-        href="https://wa.me/9531066278?text=how are you?"
-        target="_blank"
-        rel="noopener"
-        >Whatsapp</a
-      >
+        <li>
+          <img
+            width="350px"
+            src="https://rukminim2.flixcart.com/image/416/416/xif0q/shirt/k/l/x/xl-whitecheck-blackcheck-youth-first-original-imaghy7hxgn55fqc.jpeg"
+            alt="shirts"
+          />
+          <p id="sponsored">Sponsored</p>
+          <p id="brandName">BLUE MARTIN</p>
+          <p id="mensCategory">Mens Regular Fit(check)</p>
+          <p id="quatity">Pack of 2</p>
+          <img
+            src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png"
+            alt="flipkart"
+            height="18px"
+          />
+          <p>₹450 <s>₹999</s><span id="discountPer"> 85% off</span></p>
+        </li>
+      </ol>
     </div>
-
-    <!-- 
-      https://twitter.com/
-      https://www.tesla.com/
-      https://www.notion.so/ -->
   </body>
 </html>
