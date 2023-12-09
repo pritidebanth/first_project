@@ -4,274 +4,313 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>thapatechnical</title>
+    <link rel="stylesheet" href="./responsiveProject.css" />
   </head>
   <body>
-    <style>
-        #title{
-            text-decoration: underline;
-            font-size: 12px;
-            color: rgb(81, 179, 179);
-            list-style: none;display:flex;gap:15px
-            
-
-        }
-        #h1{
-            font-weight: bold;
-            font-style: oblique;
-        }
-        #figcaption{
-            font-size: 10px;
-        }
-        #logo{
-            padding: 0 0 0 40px;
-        }
-        .flexItem{
-            border: 2px solid#000;
-            display: flex;
-            flex-wrap: wrap;
-
-        }
-        
-        
-    </style>
-
-    <div class="logo">
-        <a href="#" target="blank">
-            <img  id=logo src="../priti/thapatechnicalLogo.png" alt="thapa technical logo">
+    <header>
+      <div class="navbar">
+        <div class="navbarItems">
+          <div class="logo">
+            <a href="#" target="blank">
+              <img
+                id="logo"
+                src="../priti/thapatechnicalLogo.png"
+                alt="thapa technical logo"
+              />
+            </a>
+          </div>
         </div>
-        <nav>
-            <ol id="title">
-                <li><a href="#"></a> home</li>
-                <li><a href="#"></a>about</li>
-                <li><a href="#"></a>services</li>
-                <li><a href="#"></a>contact</li>
+        <div class="navbarItems">
+          <nav>
+            <ol class="navbar" id="title">
+              <li><a href="#"></a> home</li>
+              <li><a href="#"></a>about</li>
+              <li><a href="#"></a>services</li>
+              <li><a href="#"></a>contact</li>
             </ol>
+          </nav>
+        </div>
+      </div>
+    </header>
 
-        </nav>
-        <main>
-            <div class="hero content" >
-                    
-                <h1>I am Vinod Bahadur Thapa aka Thapa Technical</h1>
-                <p>
-                    This website is all about Website Development, Technical, Tips and Tricks,  Designs Principle, Source Code sales and Programming videos in the Hindi Language.
-               </p>
+    <div class="hero content">
+      <h1>I am Vinod Bahadur Thapa aka Thapa Technical</h1>
+      <p>
+        This website is all about Website Development, Technical, Tips and
+        Tricks, Designs Principle, Source Code sales and Programming videos in
+        the Hindi Language.
+      </p>
+    </div>
 
-            </div>
-        
-        <button>see my works</button>
-       <a href="https://www.youtube.com/watch?v=5ccq_nLHneE&t=17349s" target="_blank">
+    <button style="font-size: 18px">see my works</button>
+    <a
+      href="https://www.youtube.com/watch?v=5ccq_nLHneE&t=17349s"
+      target="_blank"
+    >
+      <button style="font-size: 18px">visit youtube</button></a
+    >
 
-       </a><button>visit youtube</button></a>
+    <main class="fcontainer">
+      <div class="fitemsOne">
+        <div class="hero content">
+          <figure>
+            <img
+              style="border-radius: 90px"
+              id="profileImg"
+              width="200px"
+              height="auto"
+              src="https://thapatechnical.shop/_next/image?url=%2Fthapatechnical1.png&w=640&q=75"
+              alt=" hero section img of thapa technical"
+            />
+          </figure>
+          <strong style="color: black"> hey i'm Pankaj Thapa</strong>
+        </div>
+      </div>
 
-       <div class="hero content" >
-        <figure>
-            <img 
-            width="200px"
-            height="auto"
-            src="https://thapatechnical.shop/_next/image?url=%2Fthapatechnical1.png&w=640&q=75" alt=" hero section img of thapa technical">
-        </figure>
+      <div class="fitemsTwo">
+        <div class="aboutSection" style="margin: 16px">
+          <h2>About Thapa Technical</h2>
+          <div class="about-content"></div>
+          <p>Its great to meet you about thapa technical</p>
+          <p>
+            This website is all about Website Development, Technical,<br />
+            Tips and Tricks, Designs Principle, Source Code sales <br />and
+            Programming videos in the Hindi Language.
+          </p>
+        </div>
+      </div>
 
-       </div>
-    </main>
-    <section class="about section">
-        <h2>About Thapa Technical </h2>
-        <div class="about-content"></div>
+      <div class="foritemThree">
         <p>
-            Its great to meet you about thapa technical</p>
-            <p>This website is all about Website Development, Technical, Tips and Tricks, Designs Principle, Source Code sales and Programming videos in the Hindi Language.</p>
-            <p> 
-                <strong>My coding knowledge</strong>
-
-            </p>
-            <div><label for="html">HTML code: </label>
-                <progress id="html" max="100" value="100">100% </progress>
-            </div>
-            <div>
-                <label for="css">CSS code: </label>
-                <progress id="css" max="100" value="90">90% </progress>
-            </div>
-            <div>
-                <label for="java">java script code: </label>
-                <progress id="java" max="100" value="80">80% </progress>
-            </div>
-            <div>
-                <label for="mern">mern code: </label>
-                <progress id="mern" max="100" value="70">70% </progress>
-            </div>
-
-
-            <div  class="flexItem" style="display: flex;gap: 10px; flex-wrap: wrap;">
-
-            
-                <div class="serviceGallery">
-                    <section >
-                        <figure >
-                            <img src="https://i.ytimg.com/vi/oMXdbUN6h-Q/hqdefault.jpg" 
-                            alt="thapa technical webpage"
-                            width="100px">
-                            <figcaption id="figcaption">Thapa technical css</figcaption>
-                        </figure>
-                    </section>
-                </div>
-                
-                <div class="serviceGallery">
-                    <section >
-                        <figure >
-                            
-                            <img src="https://i.ytimg.com/vi/oMXdbUN6h-Q/hqdefault.jpg" 
-                            alt="thapa technical webpage"
-                            width="100px">
-                            <figcaption id="figcaption">Thapa technical css</figcaption>
-                        </figure>
-                    </section>
-                </div>
-                <div class="serviceGallery">
-                    <section >
-                        <figure >
-                            <img src="https://i.ytimg.com/vi/oMXdbUN6h-Q/hqdefault.jpg" 
-                            alt="thapa technical webpage"
-                            width="100px">
-                            <figcaption id="figcaption">Thapa technical css</figcaption>
-                        </figure>
-                    </section>
-                </div>
-                <div class="serviceGallery">
-                    <section >
-                        <figure >
-                            <img src="https://i.ytimg.com/vi/oMXdbUN6h-Q/hqdefault.jpg" 
-                            alt="thapa technical webpage"
-                            width="100px">
-                            <figcaption id="figcaption">Thapa technical css</figcaption>
-                        </figure>
-                    </section>
-                </div>
-                <div class="serviceGallery">
-                    <section >
-                        <figure >
-                            <img src="https://i.ytimg.com/vi/oMXdbUN6h-Q/hqdefault.jpg" 
-                            alt="thapa technical webpage"
-                            width="100px">
-                            <figcaption id="figcaption">Thapa technical css</figcaption>
-                        </figure>
-                    </section>
-                </div>
-                <div class="serviceGallery">
-                    <section >
-                        <figure >
-                            <img src="https://i.ytimg.com/vi/oMXdbUN6h-Q/hqdefault.jpg" 
-                            alt="thapa technical webpage"
-                            width="100px">
-                            <figcaption id="figcaption">Thapa technical css</figcaption>
-                        </figure>
-                    </section>
-                </div>
-                <div class="serviceGallery">
-                    <section >
-                        <figure >      
-                            <img src="https://i.ytimg.com/vi/oMXdbUN6h-Q/hqdefault.jpg" 
-                            alt="thapa technical webpage"
-                            width="100px">
-                            <figcaption id="figcaption">Thapa technical css</figcaption>
-                            
-                        </figure>
-                    </section>
-            </div>
-            
-            </div>
-    </section>
-    <section class="blog section">
-        <h2>our blogs</h2>
-        <article>
-            <header>
-                <h3> explation of html with thapa technical</h3>
-            </header>
-            <p><strong><em>"In this HTML project,</em></strong> I aim to create a dynamic and visually appealing webpage that seamlessly blends form and function. Leveraging the power of HTML5, I will structure the content with semantic elements to enhance accessibility and SEO. The inclusion of CSS will bring style and responsiveness, ensuring an optimal user experience across various devices.</p>
-        </article>
-
-
-    </section>
-
-    <section class="blog section">
-        
-        <article>
-            <header>
-                <h3> explation of html with thapa technical</h3>
-            </header>
-            <p>"In this HTML project, I aim to create a dynamic and visually appealing webpage that seamlessly blends form and function. Leveraging the power of HTML5, I will structure the content with semantic elements to enhance accessibility and SEO. The inclusion of CSS will bring style and responsiveness, ensuring an optimal user experience across various devices.   </p>
-        </article>
-        
-
-    </section>
-
-    <section class="blog section">
-        
-        <article>
-            <header>
-                <h3> explation of html with thapa technical</h3>
-            </header>
-            <p>"In this HTML project, I aim to create a dynamic and visually appealing webpage that seamlessly blends form and function. Leveraging the power of HTML5, I will structure the content with semantic elements to enhance accessibility and SEO. The inclusion of CSS will bring style and responsiveness, ensuring an optimal user experience across various devices. </p>
-        </article>
-        
-
-    </section>
-
-    <section class="blog section">
-        
-        <article>
-            <header>
-                <h3> explation of html with thapa technical</h3>
-            </header>
-            <p>"In this HTML project, I aim to create a dynamic and visually appealing webpage that seamlessly blends form and function. Leveraging the power of HTML5, I will structure the content with semantic elements to enhance accessibility and SEO. The inclusion of CSS will bring style and responsiveness, ensuring an optimal user experience across various devices.</p>
-        </article>
-        
-
-    </section>
-    <section class="podcast">
-        <p> <strong><em>Thank you for patiently reading</em></strong>
-
+          <strong>My coding knowledge</strong>
         </p>
+        <div>
+          <label for="html">HTML code: </label>
+          <progress id="html" max="100" value="100">100%</progress>
+        </div>
+        <div>
+          <label for="css">CSS code: </label>
+          <progress id="css" max="100" value="90">90%</progress>
+        </div>
+        <div>
+          <label for="java">java script code: </label>
+          <progress id="java" max="100" value="80">80%</progress>
+        </div>
+        <div>
+          <label for="mern">mern code: </label>
+          <progress id="mern" max="100" value="70">70%</progress>
+        </div>
+      </div>
+    </main>
+
+    <div
+      class="flexItem"
+      style="display: flex; gap: 10px; flex-wrap: wrap; flex-flow: row wrap"
+    >
+      <div class="serviceGallery">
+        <section>
+          <figure>
+            <img
+              src="https://i.ytimg.com/vi/oMXdbUN6h-Q/hqdefault.jpg"
+              alt="thapa technical webpage"
+              width="200px"
+            />
+            <figcaption id="figcaption">Thapa technical css</figcaption>
+          </figure>
+        </section>
+      </div>
+
+      <div class="serviceGallery">
+        <section>
+          <figure>
+            <img
+              src="https://i.ytimg.com/vi/oMXdbUN6h-Q/hqdefault.jpg"
+              alt="thapa technical webpage"
+              width="100px"
+            />
+            <figcaption id="figcaption">Thapa technical css</figcaption>
+          </figure>
+        </section>
+      </div>
+      <div class="serviceGallery">
+        <section>
+          <figure>
+            <img
+              src="https://i.ytimg.com/vi/oMXdbUN6h-Q/hqdefault.jpg"
+              alt="thapa technical webpage"
+              width="100px"
+            />
+            <figcaption id="figcaption">Thapa technical css</figcaption>
+          </figure>
+        </section>
+      </div>
+      <div class="serviceGallery">
+        <section>
+          <figure>
+            <img
+              src="https://i.ytimg.com/vi/oMXdbUN6h-Q/hqdefault.jpg"
+              alt="thapa technical webpage"
+              width="100px"
+            />
+            <figcaption id="figcaption">Thapa technical css</figcaption>
+          </figure>
+        </section>
+      </div>
+      <div class="serviceGallery">
+        <section>
+          <figure>
+            <img
+              src="https://i.ytimg.com/vi/oMXdbUN6h-Q/hqdefault.jpg"
+              alt="thapa technical webpage"
+              width="100px"
+            />
+            <figcaption id="figcaption">Thapa technical css</figcaption>
+          </figure>
+        </section>
+      </div>
+      <div class="serviceGallery">
+        <section>
+          <figure>
+            <img
+              src="https://i.ytimg.com/vi/oMXdbUN6h-Q/hqdefault.jpg"
+              alt="thapa technical webpage"
+              width="100px"
+            />
+            <figcaption id="figcaption">Thapa technical css</figcaption>
+          </figure>
+        </section>
+      </div>
+      <div class="serviceGallery">
+        <section>
+          <figure>
+            <img
+              src="https://i.ytimg.com/vi/oMXdbUN6h-Q/hqdefault.jpg"
+              alt="thapa technical webpage"
+              width="100px"
+            />
+            <figcaption id="figcaption">Thapa technical css</figcaption>
+          </figure>
+        </section>
+      </div>
+    </div>
+
+    <section class="blog section" style="padding: 17px">
+      <h2>our blogs</h2>
+      <article>
+        <h3>explation of html with thapa technical</h3>
+
+        <p>
+          <strong><em>"In this HTML project,</em></strong> I aim to create a
+          dynamic and visually appealing webpage that seamlessly blends form and
+          function. Leveraging the power of HTML5, I will structure the content
+          with semantic elements to enhance accessibility and SEO. The inclusion
+          of CSS will bring style and responsiveness, ensuring an optimal user
+          experience across various devices.
+        </p>
+      </article>
     </section>
-    <p>
-        <audio controls>
-            <source src="../priti/ringtone.mp3" type="audio/mpeg">
-            <source src="../priti/ringtone.wav" type="audio/wav">
-        </audio>
-      
-    </p>
-    <p>
-        <video controls width="500px" height="auto" >
-            
-            <source src="../priti/srk.mp4" type="video/mp4">
-            <source src="../priti/srk.mp4" type="video/mp4">
-        </video>
-    </p>
-    <h3>FORM</h3>
-    <form id="border" action="/submit" method="post">
-        <feildset>
-            <legend> Personal Info</legend>
-            <div>  
-                <label for="username">username</label>
-                <input type="text" id="username">
-            </div>
-            <div>  
-                <label for="email">Enter your email</label>
-                <input type="email" placeholder="Enter your email">
-            </div>
-            <div>  
-                <label for="birthdate">Birthdate</label>
-                <input type="Date" name="birthdate">
-            </div>
-            <div>  
-                <label for="range">Range</label>
-                <input type="range" name="volume" min="0" max="100" value="50">
-                <div>  
-                    <label for="massage">massage</label>
-                    <input type="text" placeholder="Write your massage"  cols="10px" row="10px">
-                </div>
-            </div>
-        </feildset>
 
+    <section class="blog section" style="padding: 17px">
+      <article>
+        <h3>explation of html with thapa technical</h3>
+
+        <p>
+          "In this HTML project, I aim to create a dynamic and visually
+          appealing webpage that seamlessly blends form and function. Leveraging
+          the power of HTML5, I will structure the content with semantic
+          elements to enhance accessibility and SEO. The inclusion of CSS will
+          bring style and responsiveness, ensuring an optimal user experience
+          across various devices.
+        </p>
+      </article>
+    </section>
+
+    <section class="blog section" style="padding: 17px">
+      <article>
+        <header>
+          <h3>explation of html with thapa technical</h3>
+        </header>
+        <p>
+          "In this HTML project, I aim to create a dynamic and visually
+          appealing webpage that seamlessly blends form and function. Leveraging
+          the power of HTML5, I will structure the content with semantic
+          elements to enhance accessibility and SEO. The inclusion of CSS will
+          bring style and responsiveness, ensuring an optimal user experience
+          across various devices.
+        </p>
+      </article>
+    </section>
+
+    <section class="blog section" style="padding: 17px">
+      <article>
+        <header>
+          <h3>explation of html with thapa technical</h3>
+        </header>
+        <p>
+          "In this HTML project, I aim to create a dynamic and visually
+          appealing webpage that seamlessly blends form and function. Leveraging
+          the power of HTML5, I will structure the content with semantic
+          elements to enhance accessibility and SEO. The inclusion of CSS will
+          bring style and responsiveness, ensuring an optimal user experience
+          across various devices.
+        </p>
+      </article>
+    </section>
+    <section class="podcast" style="padding: 17px">
+      <p>
+        <strong><em>Thank you for patiently reading</em></strong>
+      </p>
+    </section>
+    <p style="padding: 17px">
+      <audio controls>
+        <source src="../priti/ringtone.mp3" type="audio/mpeg" />
+        <source src="../priti/ringtone.wav" type="audio/wav" />
+      </audio>
+    </p>
+    <p style="padding: 17px">
+      <video controls width="900px" height="auto" id="forExtralarge">
+        <source src="../priti/srk.mp4" type="video/mp4" />
+      </video>
+      <video controls width="800px" height="auto" id="forDesktop">
+        <source src="../priti/srk.mp4" type="video/mp4" />
+      </video>
+      <video controls width="600px" height="auto" id="forTablet">
+        <source src="../priti/srk.mp4" type="video/mp4" />
+      </video>
+      <video controls width="300px" height="auto" id="forMobile">
+        <source src="../priti/srk.mp4" type="video/mp4" />
+      </video>
+    </p>
+    <h3 style="padding: 17px">FORM</h3>
+    <form id="border" action="/submit" method="post" style="padding: 17px">
+      <feildset>
+        <legend>Personal Info</legend>
+        <div>
+          <label for="username">username</label>
+          <input type="text" id="username" />
+        </div>
+        <div>
+          <label for="email">Enter your email</label>
+          <input type="email" placeholder="Enter your email" />
+        </div>
+        <div>
+          <label for="birthdate">Birthdate</label>
+          <input type="Date" name="birthdate" />
+        </div>
+        <div>
+          <label for="range">Range</label>
+          <input type="range" name="volume" min="0" max="100" value="50" />
+          <div>
+            <label for="massage">massage</label>
+            <input
+              type="text"
+              placeholder="Write your massage"
+              cols="10px"
+              row="10px"
+            />
+          </div>
+        </div>
+      </feildset>
     </form>
-
   </body>
 </html>
