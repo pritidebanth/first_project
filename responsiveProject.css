@@ -1,0 +1,142 @@
+#title {
+  text-decoration: underline;
+  font-size: 12px;
+  color: rgb(81, 179, 179);
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  font-size: 20px;
+}
+
+.nav {
+  text-align: center;
+}
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.navbarItems {
+  flex-grow: row wrap;
+  display: grid;
+  justify-content: space-between;
+}
+
+#h1 {
+  font-weight: bold;
+  font-style: oblique;
+}
+#figcaption {
+  font-size: 10px;
+}
+#logo {
+  padding: 0 0 0 40px;
+  /* display: grid; */
+}
+.flexItem {
+  border: 2px solid#000;
+  display: flex;
+  flex-flow: row wrap;
+}
+.serviceGallery img {
+  width: 300px;
+  flex-grow: row wrap;
+  display: grid;
+  justify-content: space-around;
+}
+#figcaption {
+  font-size: 15px;
+}
+.navbar {
+  place-content: center;
+}
+/* mobile */
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  body {
+    background-color: rgb(184, 13, 187);
+  }
+  #forTablet {
+    display: none;
+  }
+  #forDesktop {
+    display: none;
+  }
+  #forExtralarge {
+    display: none;
+  }
+}
+
+/* tablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  body {
+    background-color: rgb(26, 244, 172);
+  }
+
+  #profileImg {
+    display: none;
+  }
+  #forMobile {
+    display: none;
+  }
+  #forDesktop {
+    display: none;
+  }
+  #forExtralarge {
+    display: none;
+  }
+}
+/* desktop */
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  body {
+    background-color: rgb(88, 7, 194);
+  }
+  #forMobile {
+    display: none;
+  }
+  #forTablet {
+    display: none;
+  }
+  #forExtralarge {
+    display: none;
+  }
+}
+/* extra Large screen*/
+@media screen and (min-width: 1200px) {
+  body {
+    background-color: rgb(213, 239, 16);
+  }
+  #forMobile {
+    display: none;
+  }
+  #forTablet {
+    display: none;
+  }
+  #forDesktop {
+    display: none;
+  }
+}
+
+.aboutSection {
+  text-align: center;
+}
+
+.fcontainer {
+  display: flex;
+  flex-flow: row wrap;
+}
+.fitemsOne {
+  background-color: (#00000000);
+  color: whitesmoke;
+
+  margin: 12px;
+  width: 25rem;
+  height: 20rem;
+}
+.fitemsTwo {
+  width: 25rem;
+  height: 25rem;
+}
+.fitemsThree {
+  width: 25rem;
+  height: 25rem;
+}
